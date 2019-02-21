@@ -22,6 +22,9 @@
         foreach ($result as $key => $value) {
 ?>
             <li> <?php echo $value["task"]; ?> </li>
+            <form action="./delete.php" method="post">
+                <input type= "submit">
+            </form>
 
 
 <?php        } 
