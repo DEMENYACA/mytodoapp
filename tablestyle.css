@@ -1,4 +1,11 @@
 body{
 
-background-color: rgb(212, 220, 224);
+    background-color: blanchedalmond;
+}
+li{
+    list-style-type: circle;
+}
+.button{
+    background-color: red;
+    box-shadow: greenyellow;
 }
