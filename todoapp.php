@@ -9,7 +9,7 @@
 <body>
     
 <h1> Today's Agenda </h1>
-<p>Tasks that should be completed today. </p>
+<p>These task should be completed today. </p>
 
 </body>
 </html>

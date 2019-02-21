@@ -1,11 +1,15 @@
 body{
 
     background-color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-size: 100px;
+    text-align: center
+    font-color: grey;
+    
 }
 li{
     list-style-type: circle;
@@ -13,4 +17,8 @@ li{
 .button{
     background-color: lavender;
     font-style: arial;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
