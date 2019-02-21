@@ -23,6 +23,7 @@
 ?>
             <li> <?php echo $value["task"]; ?> </li>
             <form action="./delete.php" method="post">
+                <input type="text" value= <?php echo $value["id"]; ?> name="id">
                 <input type= "submit">
             </form>
 
