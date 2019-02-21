@@ -20,8 +20,11 @@
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $result = $stmt->fetchAll();
         foreach ($result as $key => $value) {
-            echo $value["task"];
-        } 
+?>
+            <li> <?php echo $value["task"]; ?> </li>
+
+
+<?php        } 
        
     }
     catch(PDOException $e) {
