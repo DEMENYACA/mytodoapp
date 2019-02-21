@@ -1,3 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Today's Agenda</title>
+    <link rel="stylesheet" href="tablestyle.css">
+</head>
+<body>
+    
+<h1> Today's Agenda </h1>
+<p>Tasks that should be completed today. </p>
+
+</body>
+</html>
 
 <form action="./add.php" method="post">
     <input type="text" name="task">

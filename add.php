@@ -1,3 +1,5 @@
+<a href="./todoapp.php">home</a>
+
 <?php
 $task = $_POST["task"];
 $servername = "localhost";
