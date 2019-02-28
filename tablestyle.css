@@ -1,15 +1,19 @@
 body{
 
-    background-color: blanchedalmond;
-    
+    background-image: url("Lavendar.jpg");
+    border-image:repeat
+    opacity: .5;
 
 }
 h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Block;
     font-size: 100px;
-    text-align: center
-    font-color: grey;
-    
+    text-align: center;
+    background-color: blanchedalmond;
+    color: rgb(102, 102, 131);
+}
+span{
+    color:rgb(136, 106, 106)
 }
 li{
     list-style-type: circle;
@@ -20,5 +24,7 @@ li{
 }
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-color:blue;
+    font-size: 20px;
+    background-color: beige
 }

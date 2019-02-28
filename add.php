@@ -4,7 +4,7 @@
 $task = $_POST["task"];
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Stable19";
 $dbname = "todoapp";
 
 try {

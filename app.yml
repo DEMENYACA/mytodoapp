@@ -1,0 +1,6 @@
+env_variables:
+  # Replace USER, PASSWORD, DATABASE, and CONNECTION_NAME with the
+  # values obtained when configuring your Cloud SQL instance.
+  MYSQL_DSN: virtual-door-232815:us-central1:demi-2ndst-app
+  MYSQL_USER: demi-2ndst-app
+  MYSQL_PASSWORD: Stable19

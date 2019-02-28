@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Today's Agenda</title>
+    <title><span>Today's Agenda</span></title>
     <link rel="stylesheet" href="tablestyle.css">
 </head>
 <body>
@@ -14,16 +14,16 @@
 </body>
 </html>
 
-<form action="./add.php" method="post">
+<form action="add.php" method="post">
     <input type="text" name="task">
     <input type="submit">
 </form>
 <?php
     
-    
+    include 
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "Stable19";
     $dbname = "todoapp";
     
     try {
